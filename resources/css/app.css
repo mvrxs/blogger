@@ -1,7 +1,38 @@
+@import 'common.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 [x-cloak] {
     display: none;
+}
+
+.red-600 {
+    @apply bg-red-600;
+}
+
+.indigo-600 {
+    @apply bg-indigo-600;
+}
+
+.purple-600 {
+    @apply bg-purple-600;
+}
+
+.pink-600 {
+    @apply bg-pink-600;
+}
+
+.blue-600 {
+    @apply bg-blue-600;
+}
+
+.green-600 {
+    @apply bg-green-600;
+}   
+
+.yellow-600 {
+    @apply bg-yellow-600;
 }
